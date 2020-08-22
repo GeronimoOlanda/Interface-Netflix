@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 :root{
     --vermelho:#E50914;
     --preto: #141414;
@@ -7,19 +8,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*Elementos Base */
 body{
  background: var(--preto);
  font-family: 'Times New Roman', Times, serif;
+ color: white;
 }
 
 header .container{
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 header .logo{
     color: var(--vermelho);
     font-family: Arial, Helvetica, sans-serif;
     font-size:40px;
-    
+    margin-left: 5px;
+    margin-top: 10px;
 }
 header  nav a{
     text-decoration: none;
@@ -28,4 +34,22 @@ header  nav a{
 }
 header nav a:hover{
     color:#fff;
+}
+/* Filme Principal*/
+.filme-principal{
+    font-size: 3vh;
+    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/lucifer.jpg');
+    background-size: cover;
+    height: 400px ;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.filme-principal .descricao{
+    margin-bottom: 10vh;
+}
+.titulo{
+    font-size: 40px;
 }
