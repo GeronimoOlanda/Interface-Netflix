@@ -1,4 +1,4 @@
-# Interface-Netflix
+# Interface Netflix
 Recriando a interface da netflix
 Projeto feito no curso da Dio, com intuito de melhorar minhas habilidades front-end.
 
